@@ -125,7 +125,7 @@
         ' x = CInt(name)
 
         Dim y As Double
-        Dim dblStr As String = "123.232"
+        Dim dblStr As String = "123.23213122"
         y = CDbl(dblStr)
         ' see what happens and how this behaves
         ' x = CDbl(y)
