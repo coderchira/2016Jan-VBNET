@@ -134,5 +134,32 @@
         Dim anotherName As String
         Dim z As Integer = 30
         anotherName = CStr(z)
+
+        'Object type variable
+        'Declare, Use and Dispose
+        Dim pColl As New Collection
+
+        'use
+        pColl.Add("name") 'string data type
+        pColl.Add(12)
+        pColl.Add(True)
+
+        'retrieve
+        Console.WriteLine("The items in the collection are {0}, {1}, {2}", pColl.Item(1), pColl.Item(2), pColl.Item(3))
+
+        'Remove
+        pColl.Remove(2)
+        Console.WriteLine("The items in the collection are {0}, {1}", pColl.Item(1), pColl.Item(2))
+        Console.ReadLine()
+
+        'Dispose
+        pColl = Nothing
+        'This fails
+        'Console.WriteLine(pColl.Item(1))
+
+        Dim pColl2 As New Collection
+        pColl.Add(pColl2)
+        'add some items in pColl2 and retrieve the first item of pColl2
+        'Console.WriteLine(pColl.Item(1))
     End Sub
 End Module
