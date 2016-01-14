@@ -1,6 +1,10 @@
 ﻿Module Module1
 
     Sub Main()
+
+        'Calling a function from within logicdemo
+        ' Dim rtr As Boolean = LogicDemo.AddNumbers()
+        LogicDemo.DemoFunction(3.0, 40, "Joey")
         ' This is our first comment
         'What is a Program?
         '   set of instructions
