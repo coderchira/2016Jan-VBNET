@@ -69,6 +69,8 @@
     <Compile Include="Day01\Module1.vb" />
     <Compile Include="Day02\AccessSpecifiersDemo.vb" />
     <Compile Include="Day02\LogicDemo.vb" />
+    <Compile Include="Exercises\AddressCollection.vb" />
+    <Compile Include="Exercises\NamesCollection.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">
       <AutoGen>True</AutoGen>
