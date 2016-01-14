@@ -143,6 +143,8 @@
         pColl.Add("name") 'string data type
         pColl.Add(12)
         pColl.Add(True)
+        'pColl.Add(100, "MyInteger value")
+        'Console.WriteLine(pColl.Item("MyInteger value"))
 
         'retrieve
         Console.WriteLine("The items in the collection are {0}, {1}, {2}", pColl.Item(1), pColl.Item(2), pColl.Item(3))
