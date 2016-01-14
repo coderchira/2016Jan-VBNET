@@ -44,7 +44,8 @@
         End If
 
         'Select statements
-        Select Case height
+        Dim anotherVar As Single = 10.0
+        Select Case anotherVar
             Case 2.0
                 'do something
             Case 5.0

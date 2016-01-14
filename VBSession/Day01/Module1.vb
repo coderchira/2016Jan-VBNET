@@ -4,7 +4,8 @@
 
         'Calling a function from within logicdemo
         ' Dim rtr As Boolean = LogicDemo.AddNumbers()
-        LogicDemo.DemoFunction(3.0, 40, "Joey")
+        'LogicDemo.DemoFunction(3.0, 40, "Joey")
+        AccessSpecifiersDemo.DoThis()
         ' This is our first comment
         'What is a Program?
         '   set of instructions
