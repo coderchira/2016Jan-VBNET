@@ -23,14 +23,14 @@
         'myDog.Walk() ' polymorphism - the walk method takes a different form  
 
         ''Dim animalObj As New Animal
-        'Dim dogObj As New Dog ' child class
-        'Dim animalObj As New Animal("CuteAnimal") ' base class
+        'Dim dogObj As New Dog ' child class --> both child and the parent is instantiated
+        'Dim animalObj As New Animal("CuteAnimal") ' base class --> only the base is instantiated
         'animalObj.Walk()
 
         Dim myAnimalObj As Animal ' creating a variable/ handle to base class
         Dim myDogObj As Dog ' creating a variable/ handle to child class
         myDogObj = New Dog ' instantiating an object of the child class
-        myAnimalObj = myDogObj
+        myAnimalObj = myDogObj 'polymorphism when base class reference is used to point to child class object
         myAnimalObj.Walk()
         CType(myAnimalObj, Dog).Breed = "Labrador"
 
@@ -40,7 +40,7 @@
         'Dim myAnObj2 As Animal
         'Dim myDogObj2 As Dog ' handle to child class
         'myAnObj2 = New Animal ' obj of base class
-        'myDogObj2 = myAnObj2 'illegal
+        'myDogObj2 = myAnObj2 'illegal --> not all animals are of type objects, so this casting of objects fails on runtime
         'myDogObj2.Walk()
 
         ' This is our first comment
