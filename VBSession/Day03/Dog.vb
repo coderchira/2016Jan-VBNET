@@ -25,6 +25,6 @@
     End Sub
 
     Public Overrides Function MakeNoise() As String
-        Return string
+        Return "DogNoise"
     End Function
 End Class
