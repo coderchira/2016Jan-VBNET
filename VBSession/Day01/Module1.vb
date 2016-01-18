@@ -5,7 +5,44 @@
         'Calling a function from within logicdemo
         ' Dim rtr As Boolean = LogicDemo.AddNumbers()
         'LogicDemo.DemoFunction(3.0, 40, "Joey")
-        AccessSpecifiersDemo.DoThis()
+        ' AccessSpecifiersDemo.DoThis()
+
+        'Dim myAnimal As New Animal ' object of the class / instances / instantiated
+        'myAnimal.Walk()
+        ''myAnimal.SetName("MyAnimal")
+        ''Console.WriteLine(myAnimal.GetName())
+        'myAnimal.Age = 10
+        'Console.WriteLine(myAnimal.Age)
+        'myAnimal.Name = "Animal1"
+        ''Console.WriteLine(myAnimal.Name)
+
+        'Dim myDog As Dog ' declare
+        'myDog = New Dog ' assignment
+        'myDog.Breed = "German Shepherd"
+        'myDog.Bark()
+        'myDog.Walk() ' polymorphism - the walk method takes a different form  
+
+        ''Dim animalObj As New Animal
+        'Dim dogObj As New Dog ' child class
+        'Dim animalObj As New Animal("CuteAnimal") ' base class
+        'animalObj.Walk()
+
+        Dim myAnimalObj As Animal ' creating a variable/ handle to base class
+        Dim myDogObj As Dog ' creating a variable/ handle to child class
+        myDogObj = New Dog ' instantiating an object of the child class
+        myAnimalObj = myDogObj
+        myAnimalObj.Walk()
+        CType(myAnimalObj, Dog).Breed = "Labrador"
+
+        Dim myCatObj As New Cat
+        myAnimalObj = myCatObj
+
+        'Dim myAnObj2 As Animal
+        'Dim myDogObj2 As Dog ' handle to child class
+        'myAnObj2 = New Animal ' obj of base class
+        'myDogObj2 = myAnObj2 'illegal
+        'myDogObj2.Walk()
+
         ' This is our first comment
         'What is a Program?
         '   set of instructions

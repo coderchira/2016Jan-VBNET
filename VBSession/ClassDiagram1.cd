@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="VBSession.Dog">
+    <Position X="0.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAIAAAAAAAAAAAAAAAAAAIAAAAAAAAAICAAA=</HashCode>
+      <FileName>Day03\Dog.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VBSession.Animal">
+    <Position X="3.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAIAIAIAAAEAAAAQAAAAAIAgAAAAAgAAAAAA=</HashCode>
+      <FileName>Day03\Animal.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="VBSession.Cat">
+    <Position X="6" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAIAAAAAAAAAACAAA=</HashCode>
+      <FileName>Day03\Cat.vb</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="VBSession.Vehicle">
+    <Position X="8.25" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAIAIAAQBAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Day03\Vehicle.vb</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Interface Name="VBSession.ISound">
+    <Position X="6.5" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Day03\ISound.vb</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
